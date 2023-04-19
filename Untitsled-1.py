@@ -18,4 +18,6 @@ st.header("Enter Numbers")
 a=st.number_input("Enter a")
 b=st.number_input("Enter b")
 c=st.number_input("Enter c")
-print("Greatest of 3 is :",greatest(a,b,c))
+
+st.subheader("The greatest Among the 3 Numbers is: ")
+st.write(greatest(a,b,c))
