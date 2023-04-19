@@ -10,3 +10,4 @@ def greatest(a,b,c):
         else:
             return c
  
+input(a,b,c)
