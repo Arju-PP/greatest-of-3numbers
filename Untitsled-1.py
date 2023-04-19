@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.write("Geatest Number selector among 3!")
+st.header("Geatest Number selector among 3!")
 def greatest(a,b,c):
     if a>b:
         if a>c:
@@ -14,10 +14,10 @@ def greatest(a,b,c):
             return c
 
 
-st.header("Enter Numbers")
+st.subheader("Enter Numbers")
 a=st.number_input("Enter a")
 b=st.number_input("Enter b")
 c=st.number_input("Enter c")
 
-st.subheader("The greatest Among the 3 Numbers is: ")
-st.write(greatest(a,b,c))
+
+st.write("The greatest Among the 3 Numbers is: ",greatest(a,b,c))
