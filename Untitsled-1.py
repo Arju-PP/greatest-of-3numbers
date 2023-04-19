@@ -20,4 +20,4 @@ b=st.number_input("Enter b")
 c=st.number_input("Enter c")
 
 
-st.subheader("The greatest Among the 3 Numbers is: ",greatest(a,b,c))
+st.write("The greatest Among the 3 Numbers is: ",greatest(a,b,c))
