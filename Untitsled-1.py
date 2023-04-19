@@ -1,8 +1,6 @@
 import streamlit as st
 
-st.write{"
-Geatest Number selector among 3
-"}
+st.write("Geatest Number selector among 3!")
 def greatest(a,b,c):
     if a>b:
         if a>c:
