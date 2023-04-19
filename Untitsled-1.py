@@ -19,5 +19,6 @@ a=st.number_input("Enter a")
 b=st.number_input("Enter b")
 c=st.number_input("Enter c")
 
+st.set_option('font.size', 20)
 
 st.write("The greatest Among the 3 Numbers is: ",greatest(a,b,c))
