@@ -13,3 +13,4 @@ def greatest(a,b,c):
 a=input("Enter a")
 b=input("Enter b")
 c=input("Enter c")
+print("Greatest of 3 is :",greatest(a,b,c))
