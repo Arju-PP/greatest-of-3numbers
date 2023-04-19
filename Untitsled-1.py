@@ -17,7 +17,7 @@ def greatest(a,b,c):
 
 
 st.header("Enter Numbers")
-a=number_input("Enter a")
-b=number_input("Enter b")
-c=number_input("Enter c")
+a=st.number_input("Enter a")
+b=st.number_input("Enter b")
+c=st.number_input("Enter c")
 print("Greatest of 3 is :",greatest(a,b,c))
